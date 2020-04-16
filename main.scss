@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Open+Sans:300,400,700&display=swap');
+
+$titres : 'Bowlby One SC', cursive;
+$para   : 'Open Sans', sans-serif;
+
+$beige : #DDD5C5;
+$blue  : #356178;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+  font-family: $titres;
+  font-size: 70px !important;
+}
+h2 {
+  font-family: $titres;
+  font-size: 40px !important;
+  color: white;
+}
+h3 {
+  font-family: $titres;
+  font-size: 40px !important;
+  color: $blue;
+}
+p {
+  font-family: $para;
+  color: white;
+  font-size: 22px;
+  font-weight: lighter;
+}
+.background-3 p {
+  font-family: $para;
+  color: $blue;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.background-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, $blue 0%, $blue 20%, $beige 20%, $beige 100%);
+}
+.background-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, $beige 0%, $beige 20%, $blue 20%, $blue 100%);
+}
+.background-3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, $beige 0%, $beige 50%, $blue 50%, $blue 100%);
+}
+
+.size {
+  height: 100vh;
+}
+.size-sm {
+  height: 80vh;
+}
+
+h1.home, p.home {
+  color: $blue;
+}
+p.home {
+  font-size: 30px;
+  font-weight: lighter;
+}
+p.line {
+  padding-left: 200px;
+  border-top: solid 10px $blue;
+}
+
+.contact {
+  padding-bottom: 30px;
+  border-bottom: solid 10px $blue;
+}
+/* IMAGES */
+#y-home {
+  background-image: url('/images/y-4.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  height: 80%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  border-radius: 2px;
+}
+
+#y-parcours {
+  background-image: url('/images/y-3.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height: 70%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  border-radius: 2px;
+}
