@@ -73,7 +73,7 @@ p.line {
 
 /* IMAGES */
 #y-home {
-  background-image: url("/images/y-4.jpg");
+  background-image: url("/assets/images/y-4.jpg");
   background-position: center;
   background-size: cover;
   width: 90%;
@@ -84,7 +84,7 @@ p.line {
   border-radius: 2px; }
 
 #y-parcours {
-  background-image: url("/images/y-3.jpg");
+  background-image: url("/assets/images/y-3.jpg");
   background-position: center;
   background-size: cover;
   width: 80%;
@@ -93,5 +93,19 @@ p.line {
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   border-radius: 2px; }
+
+.mynav a {
+  margin-left: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #DDD5C5;
+  opacity: 0.8; }
+  .mynav a:hover {
+    text-decoration: none;
+    color: #DDD5C5;
+    opacity: 1; }
 
 /*# sourceMappingURL=main.css.map */

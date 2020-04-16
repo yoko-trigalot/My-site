@@ -85,7 +85,7 @@ p.line {
 }
 /* IMAGES */
 #y-home {
-  background-image: url('/images/y-4.jpg');
+  background-image: url('/assets/images/y-4.jpg');
   background-position: center;
   background-size: cover;
   width: 90%;
@@ -96,7 +96,7 @@ p.line {
 }
 
 #y-parcours {
-  background-image: url('/images/y-3.jpg');
+  background-image: url('/assets/images/y-3.jpg');
   background-position: center;
   background-size: cover;
   width: 80%;
@@ -104,4 +104,20 @@ p.line {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   border-radius: 2px;
+}
+
+.mynav a {
+  margin-left: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-family: $para;
+  font-size: 40px;
+  font-weight: 300;
+  color: $beige;
+  opacity: 0.8;
+  &:hover {
+    text-decoration: none;
+    color: $beige;
+    opacity: 1;
+  }
 }
