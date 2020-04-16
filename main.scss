@@ -64,9 +64,35 @@ p {
   height: 100vh;
 }
 .size-sm {
-  height: 80vh;
+  height: 80%;
+  background-color: rgba($color: white, $alpha: 0.9);
+  border-radius: 2px;
+  a  {
+    text-decoration: none;
+    color: $blue;
+    opacity: .8;
+    transition: 0.5s;
+    &:hover {
+      text-decoration: none;
+      color: $blue;
+      opacity: 1;
+    };
+  }
 }
-
+#navcontact {
+  background-color: red;
+  a {
+    text-decoration: none;
+    color: $blue;
+    opacity: .8;
+    transition: 0.5s;
+    &:hover {
+      text-decoration: none;
+      color: $blue;
+      opacity: 1;
+    }
+  }
+}
 h1.home, p.home {
   color: $blue;
 }
@@ -88,8 +114,8 @@ p.line {
   background-image: url('/assets/images/y-4.jpg');
   background-position: center;
   background-size: cover;
-  width: 90%;
-  height: 80%;
+  width: 40rem;
+  height: 40rem;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   border-radius: 2px;
@@ -107,8 +133,8 @@ p.line {
 }
 
 .mynav a {
-  margin-left: 20px;
-  margin-top: 30px;
+  margin-right: 50px;
+  margin-top: 35px;
   text-decoration: none;
   font-family: $para;
   font-size: 40px;
